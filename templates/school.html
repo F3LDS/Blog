@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	{% for assignment in assignments %}
+		{% for class in assignment %}
+		<p>{{ class }}</p>
+    	<li>Name: {{ assignment.name }}  Due: <small>{{ assignment.due }}</small></li>
+		{% endfor %}
+	{% endfor %}
+
+</body>
+</html>

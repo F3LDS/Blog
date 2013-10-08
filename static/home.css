@@ -1,0 +1,344 @@
+body {
+  font-family: palatino;
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+.centered {
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+    position: relative;
+    width: 900px;
+    /*height: 900px;*/
+}
+
+
+
+.panel {
+    width: 100%;
+    z-index: 4;
+}
+.blurimage {
+    width: 100%;
+    height: 480px;
+    background-image: url("blurbck.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #393C52;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title-container {
+    position: relative;
+    color: #757576;
+    width: 800px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.top {
+    /*height: 300px;*/
+    /*background-color: #343838;*/
+    padding-top: 10px;
+    overflow: hidden;
+}
+.top-shadow {
+    height: 10px;
+    background-color: #2A2D2D;
+}
+
+
+
+#strip {
+    background-color: #008C9E;
+    height: 100px;
+}
+
+.nav-container {
+    height: 100px;
+    width: 905px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-button {
+  float: left;
+  width: 180px;
+  height: 100px;
+  background-color: #008C9E;
+  box-shadow: 0;
+  transition: height .1s, box-shadow .1s, border .1s;
+  -webkit-transition: height .1s, box-shadow .1s, border .1s;
+  /*border-right: 1px solid darkgray;*/
+}
+.nav-button p {
+  font-size: 20px;
+  padding-top: 20px;
+  color: #343838;
+  text-align: center;
+  transition: padding-top .1s;
+  -webkit-transition: padding-top .1s;
+}
+.nav-button:hover {
+  height: 105px;
+    -moz-box-shadow:
+        inset 5px 0 5px -5px #00707E,
+        inset -5px 0 5px -5px #00707E;
+    -webkit-box-shadow:
+        inset 5px 0 5px -5px #00707E,
+        inset -5px 0 5px -5px #00707E;
+    box-shadow:
+        inset 5px 0 5px -5px #00707E,
+        inset -5px 0 5px -5px #00707E;
+    /*border-left: inset 1px solid #40767B;
+    border-right: inset 1px solid #40767B;*/
+    transition: height .1s, border .1s;
+    -webkit-transition: height .1s, border .1s;
+}
+.nav-button:hover > p {
+  padding-top: 25px;
+  transition: padding-top .1s;
+  -webkit-transition: padding-top .1s;
+}
+.nav-button:active {
+  height: 110px;
+    /*-moz-box-shadow:
+        inset 5px 0 5px -5px #333,
+        inset -5px 0 5px -5px #333;
+    -webkit-box-shadow:
+        inset 5px 0 5px -5px #333,
+        inset -5px 0 5px -5px #333;
+        inset 0 -5px 5px -5px #333; FOR BOTTOM
+    box-shadow:
+        inset 5px 0 5px -5px #333,
+        inset -5px 0 5px -5px #333;*/
+    border-left: inset 2px solid #40767B;
+    border-right: inset 2px solid #40767B;
+    transition: height 0s, border .1s;
+    -webkit-transition: height 0s, border .1s;
+}
+.nav-button:active > p {
+  padding-top: 30px;
+  transition: padding-top .1s;
+  -webkit-transition: padding-top .1s;
+}
+
+.strip-shadow {
+    height: 10px;
+    background-color: #00707E;
+}
+
+
+
+
+
+
+#content {
+    
+}
+#content-inner {
+    position: relative;
+    height: 500px;
+}
+
+
+.icon-container {
+    width: 900px;
+}
+
+
+
+
+#dock-left {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+}
+#dock-right {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+}
+
+
+
+
+.icon {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.python {
+    background-image: url("ui/icons/python.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+.photoshop {
+    background-image: url("ui/icons/photoshop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.illustrator {
+    background-image: url("ui/icons/illustrator.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bottom-shadow {
+    height: 10px;
+    background-color: #A1A1A1;
+}
+
+
+
+.title {
+    margin: 0 auto;
+    color: #757576;
+    text-align: center;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 40px;
+    text-align: center;
+}
+.title p {
+    font-size: 20px;
+}
+
+
+.subtitle {
+    font-size: 20px;
+    color: #B5B5B5;
+}
+
+
+.logo {
+  margin: 20px auto 0;
+  width: 300px;
+  height: 300px;
+}
+
+#advancePage {
+  position: absolute;
+  border-radius: 80px;
+  left: 50%;
+  margin-left: -40px;
+  bottom: 50px;
+  background-color: #B5B5B5;
+}
+#advancePageInner {
+  top: 5px;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background-image: url("ui/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  -webkit-transition: top .1s ease;
+  -moz-transition: top .1s ease;
+  -o-transition: top .1s ease;
+}
+#advancePage:hover > #advancePageInner {
+  top: 14px;
+
+  -webkit-transition: top .1s ease;
+  -moz-transition: top .1s ease;
+  -o-transition: top .1s ease;
+}
+
+
+.gridSquare {
+  float: left;
+  width: 25%;
+  height: 50%;
+  box-shadow: inset 1px 1px 1px black;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    height: 30px;
+    background-color: #343838;
+}
+.footer p {
+    padding-top: 6px;
+    padding-left: 10px;
+    color: #B5B5B5;
+    font-size: 17px;
+    margin: 0;
+}
+
+
+
+
+.pulse{
+  margin-top: -15px;
+  float: left;
+  background-image:url("logo.svg");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:300px;
+  height:300px;
+  position: absolute;
+}
+
+.ripple,.ripple:before,.ripple:after {
+  display:block;
+  background-image:url("logobck.svg");
+  background-size: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width:300px;
+  height:300px;
+  -webkit-animation:rip 3s infinite;
+  -moz-animation:rip 10s infinite;
+  position: relative;
+}
+.ripple {
+  position:relative;
+  z-index: -1;
+}
+
+.ripple:before {-webkit-animation-delay:.2s;-moz-animation-delay:.2s;}
+
+@-webkit-keyframes rip 
+{
+  0%  {
+    background-size: 0px;
+    opacity: 100;
+  }
+  100% {
+    background-size: 300px;
+    opacity: 0;
+  }
+}
+@-moz-keyframes rip 
+{
+  0%  {
+    background-size: 0px;
+    opacity: 100;
+  }
+  100% {
+    background-size: 300px;
+    opacity: 0;
+  }
+
+
+

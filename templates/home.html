@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='home.css') }}">
+</head>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+	window.onload = function() {
+		heightOfWindow = $(window).height();
+		$('.top').css("height",heightOfWindow);
+		$('#content').css("height",heightOfWindow);
+		
+		$('#content-inner').css("top", (heightOfWindow-500)/2);
+
+
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+		        || location.hostname == this.hostname) {
+
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top
+		        }, 250);
+		        return false;
+		      }
+		    }
+		  });
+		});
+	}
+
+</script>
+
+
+
+<body>
+
+<div class="panel top">
+	<div class="title-container">
+
+		<div class="logo">
+			<div class="pulse">
+			  <div class="ripple"></div>
+			</div>
+		</div>
+
+
+		<div class="title">
+			<h1>Refractix / Alex Felder</h1>
+			<p>Python &#8226; Django &#8226; HTML &#8226; CSS &#8226; Design</p>
+		</div>
+
+	</div>
+
+	<a href="#content">
+		<div id="advancePage">
+			<div id="advancePageInner"></div>
+		</div>
+	</a>
+
+</div>
+
+
+<!--
+<div class="panel" id="strip">
+	<div class="nav-container">
+		<a href="#bottom"><div class="nav-button"><p>About</p></div></a>
+		<a href="posts"><div class="nav-button"><p>Blog</p></div></a>
+		<a href=""><div class="nav-button"><p>Portfolio</p></div></a>
+		<a href=""><div class="nav-button"><p>Projects</p></div></a>
+		<a href=""><div class="nav-button"><p>Contact</p></div></a>
+	</div>
+</div>
+<div class="strip-shadow"></div>
+-->
+
+
+
+<div id="content" class="panel">
+	<div id="content-inner">
+		
+		<!--<h2>My name is Alex Felder</h2>
+		<p>I'm a programmer and a designer.</p> 
+		<p>I work mostly in <a href="">Python</a> at the moment but have experience with 
+		<a href="">Java</a>, <a href="">Lua</a>, and <a href="">Javascript</a>.
+		<p>Web design and development is my forte. I have extensive experience in 
+		the <a href="">Django</a> and <a href="">Flask</a> web frameworks as well as fluency in
+		 HTML and CSS.</p>
+
+
+		<div class="icon-container">
+			<div class="icon python"></div>
+			<div class="icon photoshop"></div>
+			<div class="icon illustrator"></div>
+			<div class="icon"></div>
+			<div class="icon"></div>
+			<div class="icon"></div>
+		</div>
+
+		<div id="dock-left"></div>
+
+		</p>-->
+
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+		<div class="gridSquare"></div>
+
+	</div>
+
+	<div class="footer">
+		<p>&#169; 2013 Alex Felder</p>
+	</div>
+
+</div>
+</body>
+
+
+
+</html>
+

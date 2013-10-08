@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Refractix's Blog</title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog.css') }}">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='clearness.css') }}">
+</head>
+<body>
+
+
+	<div class="centered">
+		<div class="post-title">{{ post.title }}</div>
+		{{ post.date }}
+		{{ post.html|safe }}
+	</div>
+</body>
+</html>
+
+

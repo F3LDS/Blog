@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Refractix's Blog</title>
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='blog.css') }}">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='clearness.css') }}">
+</head>
+<body>
+
+
+<div class="centered pagetitle">
+	<a href="/posts"><div class="logo"></div></a>
+</div>
+
+
+
+<div class="centered">
+	<aside class="sidebar">
+		<h1 class="leftfloat"><i>~/Refractix</i></h1><p class="slogan leftfloat">Error 404:<br /> witty slogan not found</p>
+	</aside>
+
+		<ul>
+			{% for post in posts %}
+		    	<li>
+			    	<a href="{{ url_for('post', name=post.path.replace('posts/', '')) }}">
+			        	{{ post.title }}
+			    	</a>
+			    	<small>{{ post.date }}</small>
+		    	</li>
+			{% endfor %}
+		</ul>
+
+
+</div>
+
+</body>
+</html>
+

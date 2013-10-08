@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="278px" height="307px" viewBox="0 0 278 307" enable-background="new 0 0 278 307" xml:space="preserve">
+<g>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="-627.367,4.824 -498.583,79.177 -498.583,227.882 -627.367,302.235 -756.151,227.882 
+				-756.151,79.177 			"/>
+		</defs>
+		<use xlink:href="#SVGID_1_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="#B5B5B5"/>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_2_)">
+			<path fill="#B5B5B5" d="M-627.367,377.236l-193.737-111.854V41.676l193.737-111.854l193.733,111.854v223.707L-627.367,377.236z
+				 M-691.2,190.383l63.833,36.853l63.833-36.853v-73.706l-63.833-36.852l-63.833,36.852V190.383z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<defs>
+				<polygon id="SVGID_3_" points="-627.608,54.678 -542,104.104 -542,202.955 -627.608,252.381 -713.217,202.955 -713.217,104.104 
+									"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_4_)">
+				<path fill="#9B9B9B" d="M-627.608,302.237l-128.786-74.354V79.176l128.786-74.354l128.783,74.354v148.708L-627.608,302.237z
+					 M-670.041,178.027l42.433,24.498l42.433-24.498v-48.995l-42.433-24.497l-42.433,24.497V178.027z"/>
+			</g>
+		</g>
+		<rect x="-713.217" y="145.408" fill="#9B9B9B" width="43.176" height="156.355"/>
+		<polygon fill="#9B9B9B" points="-542.001,301.764 -542.001,251.909 -650.961,189 -672.549,226.392 -542.001,301.764 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<defs>
+			<polygon id="SVGID_5_" points="-262.78,4.824 -133.996,79.177 -133.996,227.882 -262.78,302.235 -391.564,227.882 
+				-391.564,79.177 			"/>
+		</defs>
+		<use xlink:href="#SVGID_5_"  overflow="visible" fill-rule="evenodd" clip-rule="evenodd" fill="#B5B5B5"/>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_6_)">
+			<path fill="#B5B5B5" d="M-262.78,377.236l-193.737-111.854V41.676L-262.78-70.178L-69.046,41.676v223.707L-262.78,377.236z
+				 M-326.613,190.383l63.833,36.853l63.833-36.853v-73.705l-63.833-36.853l-63.833,36.853V190.383z"/>
+		</g>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_7_" points="-263.021,54.678 -177.413,104.104 -177.413,202.955 -263.021,252.381 -348.629,202.955 
+				-348.629,104.104 			"/>
+		</defs>
+		<clipPath id="SVGID_8_">
+			<use xlink:href="#SVGID_7_"  overflow="visible"/>
+		</clipPath>
+		<g clip-path="url(#SVGID_8_)">
+			<path fill="#9B9B9B" d="M-263.021,302.237l-128.785-74.354V79.176l128.785-74.354l128.783,74.354v148.708L-263.021,302.237z
+				 M-305.454,178.027l42.433,24.498l42.433-24.498v-48.995l-42.433-24.497l-42.433,24.497V178.027z"/>
+		</g>
+	</g>
+	<polygon fill="#9B9B9B" points="-305.454,277.598 -305.454,145.408 -348.629,145.408 -348.629,252.67 	"/>
+	<polygon fill="#9B9B9B" points="-176.679,252.525 -284.212,190.439 -305.8,227.831 -219.855,277.453 	"/>
+</g>
+<polygon fill="#757576" points="310.975,-98.67 225.608,-49.381 140.242,-98.67 140.242,-197.244 225.608,-246.529 
+	310.975,-197.244 "/>
+<path fill="#757576" d="M140.243,4.68L11.335,79.104v148.849l128.907,74.426l128.906-74.426V79.104L140.243,4.68z M252.354,218.257
+	l-112.112,64.731L28.129,218.257V88.799l112.113-64.728l112.112,64.728V218.257z"/>
+<polygon fill="#757576" points="225.608,-99.237 310.975,-48.393 267.799,-23.465 225.608,-49.381 "/>
+<polyline fill="#757576" points="140.242,-98.67 140.242,-48.393 183.418,-23.465 183.418,-73.742 "/>
+<polygon opacity="0.49" fill="#B5B5B5" points="-246.478,-186.382 -117.571,-111.957 11.335,-186.382 -117.57,-260.807 "/>
+<polyline opacity="0" fill="#B5B5B5" points="11.335,-186.382 -117.571,-111.957 -117.571,36.893 11.335,-37.533 "/>
+<polyline opacity="0.33" fill="#B5B5B5" points="-246.478,-186.382 -117.571,-111.957 -117.57,36.893 -246.478,-37.533 "/>
+</svg>
