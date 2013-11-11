@@ -1,3 +1,14 @@
+@font-face{
+    font-family: 'Muro';
+    src: url('fonts/muro/Muro.otf');
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Muro-slant';
+    src: url('fonts/muro/Muroslant.otf');
+    font-style: normal;
+}
+
 body {
   font-family: palatino;
   margin: 0;
@@ -38,12 +49,13 @@ html {
 
 .title-container {
     position: relative;
-    color: #757576;
-    width: 800px;
+    color: #FFFFFF;
+    width: 900px;
     height: 275px;
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
+    padding-top: 50px;
 }
 
 .top {
@@ -51,6 +63,7 @@ html {
     /*background-color: #343838;*/
     padding-top: 10px;
     overflow: hidden;
+    background-color: #272731;
 }
 .top-shadow {
     height: 10px;
@@ -145,6 +158,7 @@ html {
 #content {
     position: relative;
     overflow: hidden;
+    background-color: #272731;
 }
 #content-inner {
     position: relative;
@@ -205,23 +219,28 @@ html {
 
 .title {
     margin: 0 auto;
-    color: #757576;
-    text-align: center;
+    color: #272731;
 }
 
 .title h1 {
     margin: 0;
-    font-size: 40px;
-    text-align: center;
+    font-size: 80px;
+    font-family: Muro-slant;
 }
 .title p {
-    font-size: 20px;
+    font-family: Muro;
+    font-size: 40px;
+    color: #B5B5B5;
+    margin-top: 10px;
 }
 
 
 .subtitle {
     font-size: 20px;
     color: #B5B5B5;
+}
+.blueify {
+  color: #0076B7;
 }
 
 
