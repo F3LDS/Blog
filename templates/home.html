@@ -18,6 +18,12 @@
 		$('#content-inner').css("margin-bottom",(heightOfWindow-30-500)/2);
 		
 		//$('#content-inner').css("top", (heightOfWindow-500)/2);
+		$('#name').hover(function() {
+			$('#name').html("@REFRACTIX");
+		}, function() {
+    		$('#name').html("ALEX FELDER");
+  		});
+
 
 
 		$(function() {
@@ -56,10 +62,18 @@
 
 		<div class="title">
 			<div style="height: 75px; width: 500px; background-color: #0076B7; padding-top:10px;">
-				<h1>&#160;<span style="font-family: Muro; margin-top: 10px;">*</span> ALEX FELDER</h1>
-			</div> 
-			<p>PYTHON <span class="blueify">//</span> DJANGO <span class="blueify">//</span> 
-			HTML <span class="blueify">//</span> CSS <span class="blueify">//</span> DESIGN</p>
+				<h1>&#160;<span style="font-family: Muro; margin-top: 10px;">*</span>
+					<span id="name">ALEX FELDER</span></h1>
+			</div>
+			<div>
+				<p>PYTHON <span class="blueify">//</span> DJANGO <span class="blueify">//</span> 
+				HTML <span class="blueify">//</span> CSS <span class="blueify">//</span> DESIGN</p>
+			</div>
+		</div>
+
+		<div class="aboutme">
+			<p>I'm a systems admin, graphic designer, and python programmer.</p>
+			<p>I'm well versed in the building and maintaining of computer systems running a linux based OS. I also specialize in developing websites on python-based web frameworks.</p>
 		</div>
 
 	</div>
